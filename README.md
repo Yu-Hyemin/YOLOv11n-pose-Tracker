@@ -52,6 +52,7 @@ cv2_imshow(img)
 
 
 ### 2. ID에 따라 같은 색을 부여하는 Pose + Tracker
+⭐ 동영상의 경우 'persist=True'파라미터 추가 (이전 프레임의 추적 데이터를 연장하여 추적)
 ``` python
 from ultralytics.utils.plotting import Colors
 color_palette = Colors()
@@ -92,6 +93,14 @@ out.release()
 cv2.destroyAllWindows()
 ```
 ![out6](Output_Results/out6.gif)
+<br>
+
+▶️ BoT-SORT
+   - 기본 Traker. 계산이 복잡하여 속도가 느리지만, 객체가 겹쳐서 사라지거나 빠르게 이동하는 경우 우수한 결과를 도출한다.
+
+▶️ Byte Track
+   - 계산이 빠르며 객체가 서로 겹치지 않는 경우 효율적이다. 단 객체가 겹치는 경우 정확도가 떨어지나 구현이 간단한 편이다.
+
 <br><br><br>
 ### 3. 특정 ID의 Pose + Tracker
 ``` python
