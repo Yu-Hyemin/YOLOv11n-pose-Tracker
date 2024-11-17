@@ -6,6 +6,11 @@ YOLOv11 모델로 특정 객체 Pose감지 실습<br>
 * <img src="https://img.shields.io/badge/Google Colab-F9AB00?style=for-the-badge&logo=Google Colab&logoColor=white">
 <br>
 
+## 📓 개발일지
+* <a href="https://blog.naver.com/yhm_it/223662614697"><img src="https://img.shields.io/badge/Blog-03C75A.svg?&style=flat-square&logo=naver&logoColor=white"/>
+</a>
+<br>
+
 ## ➡️ 흐름
 1. YOLO Pose 모델을 사용하여 Key-point값 추출
 2. YOLO Pose + Tracker 기능 추가<br>
