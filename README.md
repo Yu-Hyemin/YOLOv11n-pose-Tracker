@@ -1,6 +1,6 @@
 # YOLOv11n-pose-Tracker
 YOLOv11 모델로 특정 객체 Pose감지 실습<br>
-[블로그](https://blog.naver.com/yhm_it/223662614697)<br><br>
+<br><br>
 
 ## 🖥️ 개발환경
 * <img src="https://img.shields.io/badge/Google Colab-F9AB00?style=for-the-badge&logo=Google Colab&logoColor=white">
